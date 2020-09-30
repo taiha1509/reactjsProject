@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const name = "taiha";
+const ele = <h1>this is {name}</h1>;
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
+  // ele,
   document.getElementById('root')
 );
 
